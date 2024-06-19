@@ -563,6 +563,64 @@ span.single-three-point-horizontal.spacial-horizontal-line {
     text-transform: uppercase;
 }
 
+.timeline .timeline-body ul {
+    list-style: disc;
+    padding-left: 20px; /* 根据需要调整此值 */
+}
+/*experience-time*/
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #d4d9df;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline>li {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 50px;
+}
+
+.timeline .timeline-badge {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #6c757d;
+    border-radius: 50%;
+    z-index: 100;
+}
+ 
+
+.timeline .timeline-heading h4 {
+    margin: 0;
+    color: #6c757d;
+}
+
+
+
+.timeline-body ul li {
+    list-style-type: disc;
+}
+
 /*experience-time*/
 
 /*main-three-point*/
